@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio - JavaScript - Intermediário</title>
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="items">
+        <aside class="texto-esquerdo">
+          <h1>
+            Ficou com Dúvida? <br />
+            Nos mande uma mensagem!
+          </h1>
+          <p>
+            Caso tenha ficado com qualquer dúvida <br />
+            basta nos mandar uma mensagem e <br />
+            entraremos em contato em menos de 24h.
+          </p>
+        </aside>
+        <aside class="formulario">
+          <form class="inputs">
+            <input
+              class="input nome-completo"
+              type="text"
+              name="nome-completo"
+              id="nome"
+              placeholder="Nome completo *"
+            />
+            <label id="nome-semTexto" 
+              >campo obrigatório</label
+            >
+
+            <input
+              class="input email"
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email *"
+            />
+            <label id="email-semTexto" 
+              >campo obrigatório</label
+            >
+
+            <input
+              class="input telefone"
+              type="text"
+              name="tel"
+              id="tel"
+              placeholder="Telefone *"
+            /><label id="tel-semTexto" 
+              >campo obrigatório</label
+            >
+
+            <textarea
+              class="input mensagem"
+              name="mensagem"
+              type="text"
+              id="mensagem"
+              placeholder="Mensagem *"
+            ></textarea
+            ><label id="mensagem-semTexto" 
+              >campo obrigatório</label
+            >
+
+            <p>* campos obrigatórios</p>
+            <button class="btn-enviar" type="submit">Enviar</button>
+          </form>
+        </aside>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
+
